@@ -53,7 +53,7 @@ const Pricing: React.FC = () => {
       </h2>
       {/* Pricing Cards */}
       <div className="flex flex-col md:flex-row justify-center gap-8 w-full max-w-4xl mb-16">
-        {plans.map((plan, idx) => (
+        {plans.map((plan) => (
           <div
             key={plan.name}
             className={`relative bg-zinc-900 border border-zinc-700 rounded-2xl flex-1 min-w-[300px] max-w-md p-8 flex flex-col items-start ${

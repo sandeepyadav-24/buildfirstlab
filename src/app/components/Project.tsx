@@ -13,7 +13,7 @@ const Project: React.FC = () => {
       <div className="text-gray-400 text-lg mb-2 text-center">Our Projects</div>
       {/* Heading */}
       <h2 className="text-4xl md:text-5xl font-serif font-semibold text-center mb-10">
-        Ideas we've brought to life
+        Ideas we&aposve brought to life
       </h2>
       {/* Client Logos */}
       <div className="flex justify-center gap-8 items-center mb-12 w-full max-w-4xl">
