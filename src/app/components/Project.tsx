@@ -1,9 +1,9 @@
 import React from "react";
 
 const clients = [
-  { name: "campusreveal", active: false },
-  { name: "ClosetAi", active: false },
-  { name: "cherishAi", active: true },
+  { name: "campusreveal.com", active: false },
+  { name: "smartwardrobe.in", active: false },
+  { name: "cherishai.in", active: true },
 ];
 
 const Project: React.FC = () => {

@@ -3,39 +3,39 @@ import React from "react";
 const plans = [
   {
     name: "Prototype",
-    price: "£3,500",
+    price: "$1,500",
     duration: "2-3 weeks",
     description:
       "Branding & landing page to help you attract potential users, validate demand, and test your riskiest assumptions.",
     cta: "Book Intro Call →",
     features: [
-      "Naming & Domain",
-      "Logo",
-      "Colour Palette & Typography",
-      "Landing Page",
-      "Copywriting",
-      "Software Mockups",
-      "Email Collection",
-      "Website Analytics",
+      "Full MVP built and delivered in just 2-3 weeks",
+      "Choice of Web Platform or Mobile App",
+
+      "Modern, robust, and scalable tech stack",
+      " Essential features integrated (auth, payments, APIs, etc.)",
+      "Founder-focused, personalized development experience",
+      "Consistent progress updates & a transparent workflow",
     ],
     popular: false,
     highlight: false,
   },
   {
     name: "MVP",
-    price: "£7,500",
+    price: "$2,300",
     duration: "4-6 weeks",
     description:
       "An MVP web app to validate your products value, generate income, and iterate to product-market fit.",
     cta: "Book Intro Call →",
     features: [
-      "Everything in Prototype",
-      "Website (2-3 Pages)",
-      "Web Application (5-20 Screens)",
-      "User Authentication",
-      "Payments Integration",
-      "API Integrations",
-      "Custom Marketing Strategy",
+      "Up to 60 hours of dev work every month",
+
+      "Adaptable time usage based on your needs",
+
+      "Weekly sync calls for planning and strategy",
+      "Top-priority handling of new features",
+      "Ongoing performance tuning and upkeep",
+      "Immediate assistance for urgent issues (same-day response)",
     ],
     popular: true,
     highlight: true,

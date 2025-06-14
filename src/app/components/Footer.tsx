@@ -40,13 +40,13 @@ const Footer: React.FC = () => {
         <div className="flex flex-col gap-4 min-w-[220px]">
           <div className="text-lime-400 text-3xl font-bold mb-2">q</div>
           <div className="text-gray-300 text-sm leading-relaxed">
-            Simple Suite Ventures Ltd
+            Ajnara Homes
             <br />
-            International House
+            Sector - 16B
             <br />
-            36-38 Cornhill
+            Greater Noida, UP
             <br />
-            London, EC3V 3NG
+            India
           </div>
         </div>
         {/* Links */}
