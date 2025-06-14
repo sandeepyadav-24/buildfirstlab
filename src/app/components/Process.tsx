@@ -4,86 +4,52 @@ const techStack = [
   {
     name: "React",
     desc: "Library",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <circle cx="20" cy="20" r="18" stroke="#60A5FA" strokeWidth="3" />
-        <circle cx="20" cy="20" r="3" fill="#60A5FA" />
-      </svg>
-    ),
+    link: "https://img.icons8.com/officel/80/react.png",
   },
   {
     name: "Next.js",
     desc: "Framework",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <circle cx="20" cy="20" r="18" stroke="#000" strokeWidth="3" />
-        <text x="12" y="28" fontSize="14" fill="#000">
-          N
-        </text>
-      </svg>
-    ),
+    link: "https://img.icons8.com/fluency/48/nextjs.png",
   },
   {
     name: "Vercel",
     desc: "Hosting",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <polygon points="20,8 36,32 4,32" fill="#000" />
-      </svg>
-    ),
+    link: "https://img.icons8.com/officel/80/react.png",
   },
   {
     name: "MongoDB",
     desc: "Database",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <ellipse cx="20" cy="20" rx="12" ry="18" fill="#34D399" />
-      </svg>
-    ),
+    link: "https://img.icons8.com/color/48/mongodb.png",
   },
   {
     name: "Firebase",
     desc: "Authentication",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <polygon points="8,32 20,8 32,32" fill="#FBBF24" />
-      </svg>
-    ),
+    link: "https://img.icons8.com/color/48/firebase.png",
   },
   {
     name: "Stripe",
     desc: "Payments",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <text x="8" y="28" fontSize="24" fill="#6366F1">
-          S
-        </text>
-      </svg>
-    ),
+    link: "https://img.icons8.com/fluency/48/stripe.png",
   },
   {
     name: "Tailwind CSS",
     desc: "Styling",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <path
-          d="M8 28 Q20 12 32 28"
-          stroke="#38BDF8"
-          strokeWidth="3"
-          fill="none"
-        />
-      </svg>
-    ),
+    link: "https://img.icons8.com/color/48/tailwindcss.png",
   },
   {
     name: "Figma",
     desc: "Design",
-    icon: (
-      <svg className="w-8 h-8 mx-auto" viewBox="0 0 40 40" fill="none">
-        <circle cx="20" cy="12" r="6" fill="#F472B6" />
-        <circle cx="20" cy="28" r="6" fill="#34D399" />
-      </svg>
-    ),
+    link: "https://img.icons8.com/color/48/figma--v1.png",
+  },
+  {
+    name: "Supabase",
+    desc: "Functions",
+    link: "https://img.icons8.com/color/48/supabase.png",
+  },
+  {
+    name: "Express",
+    desc: "Backend",
+    link: "https://img.icons8.com/fluency/48/express-js.png",
   },
 ];
 
@@ -147,7 +113,7 @@ const Process: React.FC = () => {
       <div className="bg-white border border-gray-200 rounded-2xl px-4 py-6 w-full max-w-5xl flex flex-wrap justify-center gap-6">
         {techStack.map((tech) => (
           <div key={tech.name} className="flex flex-col items-center w-28">
-            {tech.icon}
+            <img src={tech.link} alt={tech.name} className="w-12 h-12" />
             <div className="mt-2 font-serif text-base text-gray-800 font-medium text-center">
               {tech.name}
             </div>
